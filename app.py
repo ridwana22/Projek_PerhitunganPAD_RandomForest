@@ -12,7 +12,7 @@ st.markdown("Upload file Excel data baru Anda di bawah ini untuk mendapatkan pre
 # --- 2. KONFIGURASI MODEL (PATH) ---
 # Masukkan path model Anda di sini (tanpa akhiran .pkl)
 # Pastikan file .pkl ada di lokasi ini
-MODEL_PATH = 'proyek_ml_harga_rf_747'
+MODEL_PATH = 'model_rf_747'
 
 # --- 3. UPLOAD FILE DATA ---
 st.sidebar.header("Panel Input")
@@ -92,3 +92,4 @@ if uploaded_file is not None:
 else:
 
     st.info("👈 Silakan upload file Excel (.xlsx) di sidebar sebelah kiri.")
+
