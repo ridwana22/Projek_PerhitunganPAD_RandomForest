@@ -12,7 +12,7 @@ st.markdown("Upload file Excel data baru Anda di bawah ini untuk mendapatkan pre
 # --- 2. KONFIGURASI MODEL (PATH) ---
 # Masukkan path model Anda di sini (tanpa akhiran .pkl)
 # Pastikan file .pkl ada di lokasi ini
-MODEL_PATH = 'D:/Data Projek/Projek(IDW)/virtual/projek_random_forest/proyek_ml_harga_rf_747'
+MODEL_PATH = 'proyek_ml_harga_rf_747'
 
 # --- 3. UPLOAD FILE DATA ---
 st.sidebar.header("Panel Input")
@@ -90,4 +90,5 @@ if uploaded_file is not None:
         st.error(f"File Excel tidak bisa dibaca. Pastikan formatnya benar. Error: {e}")
 
 else:
+
     st.info("👈 Silakan upload file Excel (.xlsx) di sidebar sebelah kiri.")
